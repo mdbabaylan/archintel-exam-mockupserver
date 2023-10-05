@@ -2,27 +2,51 @@
     "articles": [
         {
             "id": 1,
-            "image": "image link here",
-            "title": "First article",
+            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
+            "title": "BayanTel merges with Globe Telecom",
             "link": "link",
             "date": "date",
             "content": "This is the content of the first article",
             "status": "For Edit",
-            "Writer": 1,
-            "Editor": 2,
-            "company": 1
+            "Writer": "Writer Baby",
+            "Editor": "Editor Mark",
+            "company": "BayanTel"
         },
         {
-            "id": 1,
-            "image": "image link here",
-            "title": "Second article",
+            "id": 2,
+            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/kohler.png?alt=media&token=b1b87960-5c7a-4f8b-a5f2-6b9a98c924d5",
+            "title": "Savings rate up by 0.5%",
             "link": "link",
             "date": "date",
-            "content": "This is the content of the first article",
+            "content": "This is the content of the Second article",
             "status": "For Edit",
+            "Writer": "Writer Baby",
+            "Editor": "Editor Mark",
+            "company": "JP Morgan"
+        },
+        {
+            "id": 3,
+            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/kohler.png?alt=media&token=b1b87960-5c7a-4f8b-a5f2-6b9a98c924d5",
+            "title": "Promo price for iPhone 13",
+            "link": "link",
+            "date": "date",
+            "content": "This is the content of the Third article",
+            "status": "Published",
+            "Writer": "Writer Baby",
+            "Editor": "Editor Mark",
+            "company": "Apple",
+        },
+        {
+            "id": 4,
+            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/1fe.png?alt=media&token=3bd389f8-a360-4425-9ae7-1bcf7521602d",
+            "title": "iPhone 15 out",
+            "link": "link",
+            "date": "date",
+            "content": "This is the content of the Fourth article",
+            "status": "Published",
             "Writer": 1,
-            "Editor": 2,
-            "company": 1
+            "Editor": "Editor Mark",
+            "company": "Apple"
         }
     ],
     "users": [
@@ -30,7 +54,7 @@
             "id": 1,
             "username": "editor1",
             "password": "editor1",
-            "firstname": "Mark",
+            "firstname": "Editor Mark",
             "lastname": "Babaylan",
             "type": "editor",
             "status": "Active"
@@ -39,7 +63,7 @@
             "id": 2,
             "username": "writer1",
             "password": "writer1",
-            "firstname": "Baby",
+            "firstname": "Writer Baby",
             "lastname": "Don't Hurt Me",
             "type": "writer",
             "status": "Active"
@@ -58,7 +82,7 @@
         {
             "id": 1,
             "logo": "fed-logo",
-            "name": "Federal Reserve",
+            "name": "Apple",
             "status": "Active"
         },
         {
