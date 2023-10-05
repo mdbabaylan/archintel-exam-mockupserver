@@ -1,0 +1,11 @@
+{
+  "name": "babaylan-archintel-mockserver",
+  "version": "1.0.0",
+  "description": "mockserver for the archintel developer exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Babaylan",
+  "license": "ISC"
+}

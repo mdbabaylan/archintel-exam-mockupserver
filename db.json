@@ -1,0 +1,77 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "image": "image link here",
+            "title": "First article",
+            "link": "link",
+            "date": "date",
+            "content": "This is the content of the first article",
+            "status": "For Edit",
+            "Writer": 1,
+            "Editor": 2,
+            "company": 1
+        },
+        {
+            "id": 1,
+            "image": "image link here",
+            "title": "Second article",
+            "link": "link",
+            "date": "date",
+            "content": "This is the content of the first article",
+            "status": "For Edit",
+            "Writer": 1,
+            "Editor": 2,
+            "company": 1
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "editor1",
+            "password": "editor1",
+            "firstname": "Mark",
+            "lastname": "Babaylan",
+            "type": "editor",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "username": "writer1",
+            "password": "writer1",
+            "firstname": "Baby",
+            "lastname": "Don't Hurt Me",
+            "type": "writer",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "username": "writer2",
+            "password": "writer2",
+            "firstname": "Baby",
+            "lastname": "I'm Inactive",
+            "type": "writer",
+            "status": "Inactive"
+        }
+    ],
+    "companies": [
+        {
+            "id": 1,
+            "logo": "fed-logo",
+            "name": "Federal Reserve",
+            "status": "Active"
+        },
+        {
+            "id": 2,
+            "logo": "jpmorgan-logo",
+            "name": "JP Morgan",
+            "status": "Active"
+        },
+        {
+            "id": 3,
+            "logo": "bayantel-logo",
+            "name": "BayanTel",
+            "status": "Inactive"
+        }
+    ]
+}
