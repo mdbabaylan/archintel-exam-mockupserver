@@ -4,7 +4,8 @@
   "description": "mockserver for the archintel developer exam",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 3000"
   },
   "author": "Mark Babaylan",
   "license": "ISC"
