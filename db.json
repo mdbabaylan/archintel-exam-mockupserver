@@ -1,155 +1,146 @@
 {
-    "articles": [
-        {
-            "id": 1,
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "BayanTel merges with Globe Telecom",
-            "link": "link",
-            "date": "2023-10-04",
-            "content": "This is the content of the first article",
-            "status": "For Edit",
-            "Writer": "Writer Baby",
-            "Editor": "Editor Mark",
-            "company": "BayanTel"
-        },
-        {
-            "id": 2,
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/kohler.png?alt=media&token=b1b87960-5c7a-4f8b-a5f2-6b9a98c924d5",
-            "title": "Savings rate up by 0.5%",
-            "link": "link",
-            "date": "2023-10-05",
-            "content": "This is the content of the Second article",
-            "status": "For Edit",
-            "Writer": "Writer Baby",
-            "Editor": "Editor Mark",
-            "company": "JP Morgan"
-        },
-        {
-            "id": 3,
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/kohler.png?alt=media&token=b1b87960-5c7a-4f8b-a5f2-6b9a98c924d5",
-            "title": "Promo price for iPhone 13",
-            "link": "link",
-            "date": "2023-10-03",
-            "content": "This is the content of the Third article",
-            "status": "Published",
-            "Writer": "Writer Baby",
-            "Editor": "Editor Mark",
-            "company": "Apple"
-        },
-        {
-            "id": 4,
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/1fe.png?alt=media&token=3bd389f8-a360-4425-9ae7-1bcf7521602d",
-            "title": "iPhone 15 out",
-            "link": "link",
-            "date": "2023-10-05",
-            "content": "This is the content of the Fourth article",
-            "status": "Published",
-            "Writer": "Writer Baby",
-            "Editor": "Editor Mark",
-            "company": "Apple"
-        },
-        {
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "New Article Title",
-            "link": "new-link",
-            "date": "2023-10-02",
-            "content": "This is the content of the new article",
-            "status": "For Edit",
-            "Writer": "New Writer",
-            "Editor": "New Editor",
-            "company": "New Company",
-            "id": 5
-        },
-        {
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "Bad Habits",
-            "link": "https://asdasdadssd",
-            "date": "2023-10-05",
-            "content": "<p>Bring me the Horizon</p>",
-            "company": "JP Morgan",
-            "id": 6
-        },
-        {
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "AA",
-            "link": "http:/BBBBB",
-            "date": "2023-10-05",
-            "content": "<p>Writer name please appear</p>",
-            "Writer": "Writer Baby Don't Hurt Me",
-            "Editor": "",
-            "company": "BayanTel",
-            "id": 7
-        },
-        {
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "aa",
-            "link": "h:aa",
-            "date": "2023-10-05",
-            "content": "<p>adsccccccc</p>",
-            "Writer": "Writer Baby Don't Hurt Me",
-            "Editor": "",
-            "company": "JP Morgan",
-            "id": 8
-        },
-        {
-            "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/122.PNG?alt=media&token=2c391603-ea74-477d-ad18-4241f2cced9a",
-            "title": "aa",
-            "link": "h:a",
-            "date": "2023-10-06",
-            "content": "<p>asdasd</p>",
-            "Writer": "Writer Baby Don't Hurt Me",
-            "Editor": "",
-            "company": "Apple",
-            "id": 9
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "username": "editor1",
-            "password": "editor1",
-            "firstname": "Editor Mark",
-            "lastname": "Babaylan",
-            "type": "editor",
-            "status": "Active"
-        },
-        {
-            "id": 2,
-            "username": "writer1",
-            "password": "writer1",
-            "firstname": "Writer Baby",
-            "lastname": "Don't Hurt Me",
-            "type": "writer",
-            "status": "Active"
-        },
-        {
-            "id": 3,
-            "username": "writer2",
-            "password": "writer2",
-            "firstname": "Baby",
-            "lastname": "I'm Inactive",
-            "type": "writer",
-            "status": "Inactive"
-        }
-    ],
-    "companies": [
-        {
-            "id": 1,
-            "logo": "fed-logo",
-            "name": "Apple",
-            "status": "Active"
-        },
-        {
-            "id": 2,
-            "logo": "jpmorgan-logo",
-            "name": "JP Morgan",
-            "status": "Active"
-        },
-        {
-            "id": 3,
-            "logo": "bayantel-logo",
-            "name": "BayanTel",
-            "status": "Inactive"
-        }
-    ]
+  "articles": [
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Fduke390.png?alt=media&token=0b54b310-f36a-4cc0-b6f8-bf76c6a24a92",
+      "title": "editor11",
+      "link": "httttttP:11111",
+      "date": "2023-10-06",
+      "content": "<p>Lightweight Baby!!</p>",
+      "Writer": "Editor Mark Babaylan",
+      "Editor": "",
+      "company": "JP Morgan",
+      "status": "For Edit",
+      "id": 1
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Fcfmoto400.PNG?alt=media&token=483316b9-87d8-449c-91d0-2769e5c192f2",
+      "title": "Savings rate up by 0.5%",
+      "link": "httttttP:11111",
+      "date": "2023-10-05",
+      "content": "<p>This is the content of the Second article2XXX</p>",
+      "Writer": "Writer Baby Don't Hurt Me",
+      "Editor": "",
+      "company": "JP Morgan",
+      "status": "For Edit",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Fyamaha-mt-03.jpg?alt=media&token=148adb39-8e53-48fe-8cc1-e185faa4c939",
+      "title": "Promo price for iPhone 13",
+      "link": "httttttP:11111",
+      "date": "2023-10-03",
+      "content": "This is the content of the Third article",
+      "status": "Published",
+      "Writer": "Writer Baby",
+      "Editor": "Editor Mark",
+      "company": "Apple"
+    },
+    {
+      "id": 4,
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/1fe.png?alt=media&token=3bd389f8-a360-4425-9ae7-1bcf7521602d",
+      "title": "iPhone 15 out",
+      "link": "httttttP:11111",
+      "date": "2023-10-05",
+      "content": "This is the content of the Fourth article",
+      "status": "Published",
+      "Writer": "Writer Baby",
+      "Editor": "Editor Mark",
+      "company": "Apple"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Fduke390.png?alt=media&token=0b54b310-f36a-4cc0-b6f8-bf76c6a24a92",
+      "title": "New Article Title",
+      "link": "httttttP:11111",
+      "date": "2023-10-02",
+      "content": "<p>EThis is the content of the new article EDDaaaaaaAAAA</p>",
+      "Writer": "Writer Baby Don't Hurt Me",
+      "Editor": "",
+      "company": "JP Morgan",
+      "status": "For Edit",
+      "id": 5
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Fyamaha-mt-03.jpg?alt=media&token=148adb39-8e53-48fe-8cc1-e185faa4c939",
+      "title": "Bad Habits",
+      "link": "https://asdasdadssd",
+      "date": "2023-10-05",
+      "content": "<p>Bring me the Horizon</p>",
+      "company": "JP Morgan",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "username": "editor1",
+      "password": "editor1",
+      "firstname": "MARK",
+      "lastname": "Babaylan",
+      "type": "editor",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "writer1",
+      "password": "writer1",
+      "firstname": "Writer Baby",
+      "lastname": "Don't Hurt Me",
+      "type": "writer",
+      "status": "Active"
+    },
+    {
+      "username": "writer2",
+      "password": "writer2",
+      "firstname": "lastname writer2",
+      "lastname": "I'm Inactive",
+      "type": "writer",
+      "status": "Active",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "username": "editorX",
+      "password": "editorX",
+      "firstname": "Final 390CC editor",
+      "lastname": "Vroom",
+      "type": "editor",
+      "status": "Active"
+    },
+    {
+      "username": "writer3",
+      "password": "writer3",
+      "firstname": "Writer 4",
+      "lastname": "300CC",
+      "type": "writer",
+      "status": "Active",
+      "id": 5
+    }
+  ],
+  "companies": [
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Flamarzoco.png?alt=media&token=5afb7442-d62e-4edc-9b8d-0b2cc2559743",
+      "name": "AppleWapp",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Flamarzoco.png?alt=media&token=5afb7442-d62e-4edc-9b8d-0b2cc2559743",
+      "name": "JP Morgan",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "logo": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2Flamarzoco.png?alt=media&token=5afb7442-d62e-4edc-9b8d-0b2cc2559743",
+      "name": "BayanTel",
+      "status": "Inactive"
+    },
+    {
+      "logo": "https://firebasestorage.googleapis.com/v0/b/archintel-imagestorage.appspot.com/o/uploads%2F580b585b2edbce24c47b2452.png?alt=media&token=8d57ec07-3c34-4e71-b4b6-b50f4a8eeeff",
+      "name": "ApuInATank",
+      "status": "Active",
+      "id": 4
+    }
+  ]
 }
